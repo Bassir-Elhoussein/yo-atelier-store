@@ -7,15 +7,26 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-secondary text-accent py-16 md:py-24 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6">À Propos de Yo Atelier</h1>
-          <p className="text-lg text-accent/80 leading-relaxed">
-            Depuis plus d'une décennie, nous sélectionnons les plus belles pièces de design d'intérieur et
-            d'architecture pour transformer vos espaces en lieux d'exception.
-          </p>
-        </div>
-      </section>
+  <section
+  className="relative py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-secondary text-accent bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: "url('/pic4.png')", // 🖼️ replace with your own image
+  }}
+>
+  {/* Dark overlay for readability */}
+  <div className="absolute inset-0 bg-black/40"></div>
+
+  <div className="relative max-w-4xl mx-auto text-center animate-fade-in">
+    <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6 text-white">
+      À Propos de Yo Atelier
+    </h1>
+    <p className="text-lg text-white/90 leading-relaxed">
+      Depuis plus d'une décennie, nous sélectionnons les plus belles pièces de design d'intérieur et
+      d'architecture pour transformer vos espaces en lieux d'exception.
+    </p>
+  </div>
+</section>
+
 
       {/* Main Content */}
       <section className="flex-1 py-16 md:py-24 px-4 sm:px-6 lg:px-8">

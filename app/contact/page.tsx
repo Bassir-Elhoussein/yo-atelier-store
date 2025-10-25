@@ -34,15 +34,26 @@ export default function ContactPage() {
     <main className="min-h-screen flex flex-col">
       <Header />
 
-      {/* Hero Section */}
-      <section className="bg-secondary text-accent py-16 md:py-24 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6">Nous Contacter</h1>
-          <p className="text-lg text-accent/80">
-            Vous avez une question ou un projet ? Nous serions ravis de vous aider.
-          </p>
-        </div>
-      </section>
+{/* Hero Section */}
+<section
+  className="relative py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-secondary text-accent bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: "url('/pic3.png')", // 🖼️ replace with your background image
+  }}
+>
+  {/* overlay for readability */}
+  <div className="absolute inset-0 bg-black/40"></div>
+
+  <div className="relative max-w-4xl mx-auto text-center animate-fade-in">
+    <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6 text-white">
+      Nous Contacter
+    </h1>
+    <p className="text-lg text-white/90">
+      Vous avez une question ou un projet ? Nous serions ravis de vous aider.
+    </p>
+  </div>
+</section>
+
 
       {/* Main Content */}
       <section className="flex-1 py-16 md:py-24 px-4 sm:px-6 lg:px-8">

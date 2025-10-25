@@ -130,7 +130,7 @@ export default function ProductDetailPage() {
 
               {/* Price */}
               <div className="mb-8 pb-8 border-b border-border">
-                <p className="text-4xl font-bold text-primary">{product.price} €</p>
+                <p className="text-4xl font-bold text-primary">{product.price} DH</p>
               </div>
 
               {/* Description */}
@@ -200,7 +200,7 @@ export default function ProductDetailPage() {
                       <h3 className="font-serif text-lg font-semibold mb-2 group-hover:text-primary transition-colors">
                         {relatedProduct.name}
                       </h3>
-                      <p className="text-primary font-semibold">{relatedProduct.price} €</p>
+                      <p className="text-primary font-semibold">{relatedProduct.price} DH</p>
                     </div>
                   </Link>
                 ))}

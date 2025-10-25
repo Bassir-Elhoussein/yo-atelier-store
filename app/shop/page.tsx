@@ -19,12 +19,25 @@ export default function ShopPage() {
       <Header />
 
       {/* Page Header */}
-      <section className="bg-secondary text-accent py-12 md:py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center animate-fade-in">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">Notre Boutique</h1>
-          <p className="text-lg text-accent/80">Découvrez notre sélection exclusive de pièces de design</p>
-        </div>
-      </section>
+     <section
+  className="relative py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-secondary text-accent bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: "url('/pic2.png')", // 🖼️ replace with your image path
+  }}
+>
+  {/* overlay for better text contrast */}
+  <div className="absolute inset-0 bg-black/40"></div>
+
+  <div className="relative max-w-7xl mx-auto text-center animate-fade-in">
+    <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-white">
+      Notre Boutique
+    </h1>
+    <p className="text-lg text-white/90">
+      Découvrez notre sélection exclusive de pièces de design
+    </p>
+  </div>
+</section>
+
 
       {/* Main Content */}
       <section className="flex-1 py-12 md:py-20 px-4 sm:px-6 lg:px-8">

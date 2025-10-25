@@ -11,8 +11,9 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   return (
     <Link href={`/product/${product.id}`}>
-      <div className="group cursor-pointer animate-scale-in card-hover">
-        <div className="relative overflow-hidden bg-accent mb-4 aspect-square">
+      <div className="group cursor-pointer animate-scale-in card-hover flex flex-col h-full bg-background rounded-lg shadow-sm overflow-hidden">
+        {/* Product Image */}
+        <div className="relative overflow-hidden bg-accent aspect-square">
           <Image
             src={product.image || "/placeholder.svg"}
             alt={product.name}
@@ -21,19 +22,30 @@ export default function ProductCard({ product }: ProductCardProps) {
           />
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
         </div>
-        <h3 className="font-serif text-lg font-semibold mb-2 group-hover:text-primary btn-transition">
-          {product.name}
-        </h3>
-        <p className="text-sm text-muted mb-3 line-clamp-2 group-hover:text-foreground/80 btn-transition">
-          {product.description}
-        </p>
-        <div className="flex justify-between items-center">
-          <span className="text-primary font-semibold group-hover:text-primary/80 btn-transition">
-            {product.price} €
-          </span>
-          <span className="text-xs tracking-widest text-muted group-hover:text-foreground btn-transition">
-            {product.category}
-          </span>
+
+        {/* Product Info */}
+        <div className="flex flex-col flex-1 justify-between p-4 space-y-3">
+          {/* Product name */}
+          <h3 className="font-serif text-xl font-semibold leading-tight text-foreground group-hover:text-primary btn-transition">
+            {product.name}
+          </h3>
+
+          {/* Description */}
+          <p className="text-sm leading-relaxed text-muted-foreground line-clamp-2 group-hover:text-foreground/70 btn-transition">
+            {product.description}
+          </p>
+
+          {/* Price + Category */}
+          <div className="flex items-end justify-between pt-3 mt-auto border-t border-border/50">
+            <span className="text-lg font-semibold text-primary group-hover:text-primary/80 btn-transition">
+              {product.price} DH
+            </span>
+            {product.category && (
+              <span className="text-xs tracking-widest uppercase text-muted-foreground group-hover:text-foreground/60 btn-transition">
+                {product.category}
+              </span>
+            )}
+          </div>
         </div>
       </div>
     </Link>

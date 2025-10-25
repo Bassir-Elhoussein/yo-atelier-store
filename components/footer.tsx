@@ -57,7 +57,7 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Phone size={16} />
                 <a href="tel:+33123456789" className="hover:text-accent transition-colors duration-300">
-                  +33 1 23 45 67 89
+                  +212 1 23 45 67 89
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>Paris, France</span>
+                <span>Bouskoura, Morocco</span>
               </li>
             </ul>
           </div>
@@ -88,7 +88,7 @@ export default function Footer() {
                 <MessageCircle size={20} />
               </a>
               <a
-                href="https://instagram.com/yoatelier"
+                href="https://www.instagram.com/yo.atelier_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors duration-300 hover:scale-110 transform"
