@@ -11,6 +11,57 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  id: "8",
+  name: "Suspension HÉRA",
+  description: "Un design épuré qui met en valeur l'ampoule. Matériaux naturels, style industriel-scandinave.",
+  price: 320,
+  category: "Luminaires",
+  image: "/1.png",
+  images: [
+    
+    "/1.png"
+  ],
+  fullDescription:
+    "Suspension HÉRA, un luminaire au design épuré qui sublime la simplicité. Conçue avec des matériaux naturels et durables, cette suspension combine le charme du style industriel et la chaleur du style scandinave. Parfaite pour un salon, une chambre ou une salle à manger, elle apporte une touche d'élégance discrète à votre intérieur."
+},
+{
+  id: "9",
+  name: "Suspension Linéa",
+  description: "La lumière dans sa forme la plus pure. Une silhouette artistique et équilibrée mêlant géométrie élégante et contraste des matériaux.",
+  price: 450,
+  category: "Luminaires",
+  image: "/2.png",
+  images: [
+    "/2.png",
+    
+  ],
+  fullDescription:
+    "Linéa se distingue par une silhouette artistique et parfaitement équilibrée, mêlant géométrie élégante et contraste des matériaux. Sa structure, composée d’éléments soigneusement empilés autour d’un axe vertical, évoque l’esthétique des mobiles ou de l’art cinétique. Chaque forme s’assemble avec harmonie pour créer un luminaire à la fois décoratif, architectural et intemporel. Idéale pour sublimer un espace moderne, minimaliste ou artistique."
+},{
+  id: "10",
+  name: "Suspension Cylora",
+  description: "Suspension sculpturale et graphique au design équilibré, mêlant géométrie élégante et contraste des matériaux.",
+  price: 480,
+  category: "Luminaires",
+  image: "/3.png",
+  images: [
+    "/3.png",
+    
+  ],
+  fullDescription:
+    "Cylora se distingue par une silhouette artistique et parfaitement équilibrée, mêlant géométrie élégante et contraste des matériaux. Sa structure, composée d’éléments soigneusement empilés autour d’un axe vertical, évoque l’esthétique des mobiles ou de l’art cinétique. Chaque forme s’assemble avec harmonie pour créer un luminaire sculptural et graphique, à la fois décoratif, architectural et intemporel. Idéal pour mettre en valeur un espace design ou contemporain."
+},
+ {
+    id: "7",
+    name: "Suspension Sculpturale Cônique",
+    description: "Lampe à suspension en bois foncé avec coupelle décorative jaune",
+    price: 145,
+    category: "Luminaires",
+    image: "/sculptural-wooden-pendant-lamp2.jpeg",
+    images: ["/sculptural-wooden-pendant-lamp1.jpeg", "/sculptural-wooden-pendant-lamp2.jpeg", "/sculptural-wooden-pendant-lamp3.png"],
+    fullDescription:
+      "Cette suspension apporte une touche de design organique et moderne à votre intérieur. Elle présente un corps cylindrique en bois de noyer foncé, surmonté d'une coupelle décorative jaune terre. Suspendue par un cordon noir discret, elle est dotée d'une ampoule Edison sphérique apparente qui diffuse une lumière chaude et accueillante. Idéale au-dessus d'une table d'appoint, d'un îlot de cuisine ou pour éclairer un coin lecture. Un luminaire qui est aussi une œuvre d'art minimaliste."
+  },{
     id: "1",
     name: "Luminaire Suspendu Minimaliste",
     description: "Suspension élégante en métal noir avec finition mate",
@@ -76,15 +127,7 @@ export const products: Product[] = [
     fullDescription:
       "Miroir mural au cadre épuré en acier noir. Parfait pour agrandir visuellement votre espace. Le design minimaliste du cadre en acier brossé complète parfaitement tout type de décoration intérieure, du moderne au classique.",
   },
-  {
-    id: "7",
-    name: "Suspension Sculpturale Cônique",
-    description: "Lampe à suspension en bois foncé avec coupelle décorative jaune",
-    price: 145,
-    category: "Luminaires",
-    image: "/sculptural-wooden-pendant-lamp2.jpeg",
-    images: ["/sculptural-wooden-pendant-lamp1.jpeg", "/sculptural-wooden-pendant-lamp2.jpeg", "/sculptural-wooden-pendant-lamp3.png"],
-    fullDescription:
-      "Cette suspension apporte une touche de design organique et moderne à votre intérieur. Elle présente un corps cylindrique en bois de noyer foncé, surmonté d'une coupelle décorative jaune terre. Suspendue par un cordon noir discret, elle est dotée d'une ampoule Edison sphérique apparente qui diffuse une lumière chaude et accueillante. Idéale au-dessus d'une table d'appoint, d'un îlot de cuisine ou pour éclairer un coin lecture. Un luminaire qui est aussi une œuvre d'art minimaliste."
-  }
+ 
+
+  
 ]

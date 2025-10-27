@@ -62,8 +62,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <a href="mailto:contact@yoatelier.com" className="hover:text-accent transition-colors duration-300">
-                  contact@yoatelier.com
+                <a href="mailto:yoatelier.business@gmail.com" className="hover:text-accent transition-colors duration-300">
+                  yoatelier.business@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -98,7 +98,7 @@ export default function Footer() {
                 <Instagram size={20} />
               </a>
               <a
-                href="mailto:contact@yoatelier.com"
+                href="mailto:yoatelier.business@gmail.com"
                 className="hover:text-accent transition-colors duration-300 hover:scale-110 transform"
                 aria-label="Email"
                 title="Envoyez-nous un email"
