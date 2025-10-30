@@ -133,7 +133,8 @@ export default function ProductDetailPage() {
                   {product.category}
                 </span>
                 <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">{product.name}</h1>
-                <p className="text-lg text-muted mb-6">{product.description}</p>
+                <p className="text-lg text-zinc-500 mb-6">{product.description}</p>
+
               </div>
 
               <div className="mb-8 pb-8 border-b border-border">

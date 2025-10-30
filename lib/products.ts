@@ -16,10 +16,13 @@ export const products: Product[] = [
   description: "Un design épuré qui met en valeur l'ampoule. Matériaux naturels, style industriel-scandinave.",
   price: 320,
   category: "Luminaires",
-  image: "/1.png",
+  image: "/hera1.png",
   images: [
     
-    "/1.png"
+    
+    "/hera1.png",
+     "/hera2.png",
+      "/hera3.png",
   ],
   fullDescription:
     "Suspension HÉRA, un luminaire au design épuré qui sublime la simplicité. Conçue avec des matériaux naturels et durables, cette suspension combine le charme du style industriel et la chaleur du style scandinave. Parfaite pour un salon, une chambre ou une salle à manger, elle apporte une touche d'élégance discrète à votre intérieur."
@@ -30,9 +33,11 @@ export const products: Product[] = [
   description: "La lumière dans sa forme la plus pure. Une silhouette artistique et équilibrée mêlant géométrie élégante et contraste des matériaux.",
   price: 450,
   category: "Luminaires",
-  image: "/2.png",
+  image:  "/linea3.png",
   images: [
-    "/2.png",
+    "/linea1.png",
+     "/linea2.png",
+      "/linea3.png",
     
   ],
   fullDescription:
@@ -43,9 +48,12 @@ export const products: Product[] = [
   description: "Suspension sculpturale et graphique au design équilibré, mêlant géométrie élégante et contraste des matériaux.",
   price: 480,
   category: "Luminaires",
-  image: "/3.png",
+  image: "/cylora1.png",
   images: [
-    "/3.png",
+    "/cylora1.png",
+    "/cylora3.png",
+    "/cylora2.png",
+    "/cylora4.png",
     
   ],
   fullDescription:
@@ -57,8 +65,12 @@ export const products: Product[] = [
     description: "Lampe à suspension en bois foncé avec coupelle décorative jaune",
     price: 145,
     category: "Luminaires",
-    image: "/sculptural-wooden-pendant-lamp2.jpeg",
-    images: ["/sculptural-wooden-pendant-lamp1.jpeg", "/sculptural-wooden-pendant-lamp2.jpeg", "/sculptural-wooden-pendant-lamp3.png"],
+    image: "/sculptural-wooden-pendant-lamp3.png",
+    images: ["/Cônique2.png", 
+      "/Cônique1.png",
+     "/clonique3.png", 
+     "/colinique4.png", 
+      "/sculptural-wooden-pendant-lamp3.png"],
     fullDescription:
       "Cette suspension apporte une touche de design organique et moderne à votre intérieur. Elle présente un corps cylindrique en bois de noyer foncé, surmonté d'une coupelle décorative jaune terre. Suspendue par un cordon noir discret, elle est dotée d'une ampoule Edison sphérique apparente qui diffuse une lumière chaude et accueillante. Idéale au-dessus d'une table d'appoint, d'un îlot de cuisine ou pour éclairer un coin lecture. Un luminaire qui est aussi une œuvre d'art minimaliste."
   },{
