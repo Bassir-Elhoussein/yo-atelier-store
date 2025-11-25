@@ -14,7 +14,7 @@ export const products: Product[] = [
   id: "8",
   name: "Suspension HÉRA",
   description: "Un design épuré qui met en valeur l'ampoule. Matériaux naturels, style industriel-scandinave.",
-  price: 320,
+  price: 1200,
   category: "Luminaires",
   image: "/hera1.png",
   images: [
@@ -31,12 +31,16 @@ export const products: Product[] = [
   id: "9",
   name: "Suspension Linéa",
   description: "La lumière dans sa forme la plus pure. Une silhouette artistique et équilibrée mêlant géométrie élégante et contraste des matériaux.",
-  price: 450,
+  price: 1800,
   category: "Luminaires",
   image:  "/linea3.png",
   images: [
     "/linea1.png",
-     "/linea2.png",
+      "/linea4.jpeg",
+   "/linea7.jpeg",
+    "/linea6.jpeg",
+     "/linea5.jpeg",
+    
       "/linea3.png",
     
   ],
@@ -46,7 +50,7 @@ export const products: Product[] = [
   id: "10",
   name: "Suspension Cylora",
   description: "Suspension sculpturale et graphique au design équilibré, mêlant géométrie élégante et contraste des matériaux.",
-  price: 480,
+  price: 1500,
   category: "Luminaires",
   image: "/cylora1.png",
   images: [
@@ -63,14 +67,15 @@ export const products: Product[] = [
     id: "7",
     name: "Suspension Sculpturale Cônique",
     description: "Lampe à suspension en bois foncé avec coupelle décorative jaune",
-    price: 145,
+    price: 1600,
     category: "Luminaires",
     image: "/sculptural-wooden-pendant-lamp3.png",
-    images: ["/Cônique2.png", 
-      "/Cônique1.png",
-     "/clonique3.png", 
-     "/colinique4.png", 
-      "/sculptural-wooden-pendant-lamp3.png"],
+    images: ["/sculptural-wooden-pendant-lamp3.png",
+      "/Cônique4.jpeg",
+      "/Cônique5.png",
+      "/Cônique6.png",
+       
+     ],
     fullDescription:
       "Cette suspension apporte une touche de design organique et moderne à votre intérieur. Elle présente un corps cylindrique en bois de noyer foncé, surmonté d'une coupelle décorative jaune terre. Suspendue par un cordon noir discret, elle est dotée d'une ampoule Edison sphérique apparente qui diffuse une lumière chaude et accueillante. Idéale au-dessus d'une table d'appoint, d'un îlot de cuisine ou pour éclairer un coin lecture. Un luminaire qui est aussi une œuvre d'art minimaliste."
   },{
