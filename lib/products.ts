@@ -20,9 +20,9 @@ export const products: Product[] = [
   images: [
     
     
-    "/hera1.png",
-     "/hera2.png",
-      "/hera11.jpeg",
+  "/hera1.png",
+  "/hera2.png",
+  "/hera11.jpeg",
   "/hera12.jpeg",
   "/hera13.jpeg",
   "/hera14.jpeg",
