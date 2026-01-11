@@ -43,20 +43,27 @@ export const products: Product[] = [
   category: "Luminaires",
   image:  "/linea3.png",
 images: [
-  "/linea1.png",
-  "/linea4.jpeg",
-  "/linea7.jpeg",
-  "/linea6.jpeg",
-  "/linea5.jpeg",
-  "/linea3.png",
+  // "/linea1.png",
+  // "/linea4.jpeg",
+  // "/linea7.jpeg",
+  // "/linea6.jpeg",
+  // "/linea5.jpeg",
+  // "/linea3.png",
 
   "/linea11.jpeg",
-  "/linea12.jpeg",
-  "/linea13.jpeg",
+  "/linea2.jpeg",
+    "/linea3.jpeg",
+      "/linea44.jpeg",
+        
+
+
   "/linea14.jpeg",
-  "/linea15.jpeg",
+ //pnpm  "/linea12.jpeg",
+  "/linea13.jpeg",
+  
+ // "/linea15.jpeg",
   "/linea16.jpeg",
-  "/linea17.jpeg",
+ // "/linea17.jpeg",
   "/linea18.jpeg",
   "/linea19.jpeg",
   "/linea20.jpeg",
@@ -65,7 +72,7 @@ images: [
   "/linea23.jpeg",
   "/linea24.jpeg",
   "/linea25.jpeg",
-  "/linea26.jpeg",
+ // "/linea26.jpeg",
   "/linea27.jpeg",
 ],
 
