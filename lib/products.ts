@@ -22,7 +22,15 @@ export const products: Product[] = [
     
     "/hera1.png",
      "/hera2.png",
-      "/hera3.png",
+      "/hera11.jpeg",
+  "/hera12.jpeg",
+  "/hera13.jpeg",
+  "/hera14.jpeg",
+  "/hera15.jpeg",
+  "/hera16.jpeg",
+  "/hera17.jpeg",
+  "/hera18.jpeg",
+      
   ],
   fullDescription:
     "Suspension HÉRA, un luminaire au design épuré qui sublime la simplicité. Conçue avec des matériaux naturels et durables, cette suspension combine le charme du style industriel et la chaleur du style scandinave. Parfaite pour un salon, une chambre ou une salle à manger, elle apporte une touche d'élégance discrète à votre intérieur."

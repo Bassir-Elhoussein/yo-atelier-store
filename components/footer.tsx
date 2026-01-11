@@ -88,7 +88,7 @@ export default function Footer() {
                 <MessageCircle size={20} />
               </a>
               <a
-                href="https://www.instagram.com/yo.atelier_"
+                href="https://www.instagram.com/yo.atelier.design"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors duration-300 hover:scale-110 transform"
@@ -109,10 +109,42 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Footer Bottom */}
-        <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/70">
-          <p>&copy; 2025 Yo Atelier Business. Tous droits réservés.</p>
-        </div>
+       {/* Footer Bottom */}
+<div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/70">
+  <div className="flex flex-col items-center gap-2">
+    
+    <a
+      href="https://brandflox.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 hover:text-primary-foreground transition-colors"
+    >
+      {/* Logo */}
+      <img
+        src="/darklogo.png" // change path if needed
+        alt="BrandFlox Logo"
+        className="h-6 w-auto"
+      />
+
+      {/* Company Name */}
+      <span className="font-semibold">
+        BrandFlox
+      </span>
+    </a>
+
+    <p className="text-xs">
+      Developed & crafted by{" "}
+      <span className="font-medium text-primary-foreground">
+        BrandFlox
+      </span>
+    </p>
+
+    <p className="text-xs">
+      &copy; 2025 Yo Atelier Business. Tous droits réservés.
+    </p>
+  </div>
+</div>
+
       </div>
     </footer>
   )
