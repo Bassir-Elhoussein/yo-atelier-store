@@ -42,16 +42,33 @@ export const products: Product[] = [
   price: 1800,
   category: "Luminaires",
   image:  "/linea3.png",
-  images: [
-    "/linea1.png",
-      "/linea4.jpeg",
-   "/linea7.jpeg",
-    "/linea6.jpeg",
-     "/linea5.jpeg",
-    
-      "/linea3.png",
-    
-  ],
+images: [
+  "/linea1.png",
+  "/linea4.jpeg",
+  "/linea7.jpeg",
+  "/linea6.jpeg",
+  "/linea5.jpeg",
+  "/linea3.png",
+
+  "/linea11.jpeg",
+  "/linea12.jpeg",
+  "/linea13.jpeg",
+  "/linea14.jpeg",
+  "/linea15.jpeg",
+  "/linea16.jpeg",
+  "/linea17.jpeg",
+  "/linea18.jpeg",
+  "/linea19.jpeg",
+  "/linea20.jpeg",
+  "/linea21.jpeg",
+  "/linea22.jpeg",
+  "/linea23.jpeg",
+  "/linea24.jpeg",
+  "/linea25.jpeg",
+  "/linea26.jpeg",
+  "/linea27.jpeg",
+],
+
   fullDescription:
     "Linéa se distingue par une silhouette artistique et parfaitement équilibrée, mêlant géométrie élégante et contraste des matériaux. Sa structure, composée d’éléments soigneusement empilés autour d’un axe vertical, évoque l’esthétique des mobiles ou de l’art cinétique. Chaque forme s’assemble avec harmonie pour créer un luminaire à la fois décoratif, architectural et intemporel. Idéale pour sublimer un espace moderne, minimaliste ou artistique."
 },{
