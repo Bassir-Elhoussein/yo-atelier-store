@@ -44,6 +44,7 @@ export const products: Product[] = [
   image:  "/linea3.png",
 images: [
    "/linea1.png",
+   "/linea15.jpeg",
    "/linea2.jpeg",
    "/linea3.jpeg",
   // "/linea6.jpeg",
@@ -64,7 +65,7 @@ images: [
 "/linea12.jpeg",
 "/linea13.jpeg",
 "/linea14.jpeg",
-"/linea15.jpeg",
+
 
 ],
 
