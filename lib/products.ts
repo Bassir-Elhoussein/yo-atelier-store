@@ -118,7 +118,7 @@ images: [
     id: "2",
     name: "Chaise Lounge Moderne",
     description: "Chaise confortable avec structure en bois massif",
-    price: 450,
+    price: 3799,
     category: "Chaises",
     image: "/modern-lounge-chair-wood.jpg",
     images: ["/modern-lounge-chair-wood.jpg", "/lounge-chair-side-view.jpg", "/lounge-chair-in-living-room.jpg"],
